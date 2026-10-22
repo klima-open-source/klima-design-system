@@ -11,6 +11,10 @@
     "dist/*.css.d.ts"
   ],
   "exports": {
+    "./klima.css": {
+      "types": "./dist/klima.css.d.ts",
+      "default": "./dist/klima.css"
+    },
     "./sole.css": {
       "types": "./dist/sole.css.d.ts",
       "default": "./dist/sole.css"

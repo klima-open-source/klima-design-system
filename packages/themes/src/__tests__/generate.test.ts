@@ -84,6 +84,38 @@ describe("Solé theme (TASK-010)", () => {
   });
 });
 
+describe("Klima theme (TASK-019)", () => {
+  const klimaCss = artifacts["klima.css"] as string;
+
+  it("is marked as generated", () => {
+    expect(klimaCss.startsWith(`/* ${GENERATED_NOTICE} */`)).toBe(true);
+    expect(artifacts["klima.css.d.ts"]).toContain(GENERATED_NOTICE);
+  });
+
+  it("maps the typeface and the primary action to the Figma Indigo variant in every mode", () => {
+    const body = [
+      "  --klima-font-family-base: var(--klima-brand-klima-font-family-base);",
+      ...["default", "hover", "active"].map(
+        (state) => `  --klima-color-action-primary-${state}: var(--klima-brand-klima-blue-600);`,
+      ),
+      "  --klima-color-action-primary-foreground: var(--klima-brand-klima-white-100);",
+    ].join("\n");
+    expect(klimaCss).toContain(`[data-brand="klima"]:not([data-theme="dark"]) {\n${body}\n}`);
+    expect(klimaCss).toContain(`[data-brand="klima"][data-theme="dark"] {\n${body}\n}`);
+  });
+
+  it("leaves the secondary action and every other color on the neutral contract", () => {
+    for (const mode of ["light", "dark"])
+      expect(resolveTheme("klima", mode).map(({ path }) => path)).toEqual([
+        "font.family.base",
+        "color.action.primary.default",
+        "color.action.primary.hover",
+        "color.action.primary.active",
+        "color.action.primary.foreground",
+      ]);
+  });
+});
+
 describe("theme selectors", () => {
   it("apply the default mode without data-theme and other modes explicitly", () => {
     expect(themeSelector("sole", "light", ["light", "dark"])).toBe(
@@ -177,7 +209,11 @@ describe("stale output detection", () => {
   });
 
   it("reports stale and missing artifacts", () => {
-    const dir = write({ "sole.css": css.replace("indigo-400", "indigo-300") });
+    const dir = write({
+      "klima.css": artifacts["klima.css"] as string,
+      "klima.css.d.ts": artifacts["klima.css.d.ts"] as string,
+      "sole.css": css.replace("indigo-400", "indigo-300"),
+    });
     expect(checkGenerated(dir, artifacts)).toEqual([
       { file: "sole.css", problem: "stale" },
       { file: "sole.css.d.ts", problem: "missing" },

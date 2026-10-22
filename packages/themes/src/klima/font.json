@@ -1,0 +1,11 @@
+{
+  "font": {
+    "family": {
+      "base": {
+        "$type": "fontFamily",
+        "$value": "{brand.klima.font.family.base}",
+        "$description": "Klima interface typeface: Be Vietnam Pro with a system fallback (ADR-006)."
+      }
+    }
+  }
+}

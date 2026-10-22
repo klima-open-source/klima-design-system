@@ -1,0 +1,28 @@
+{
+  "color": {
+    "action": {
+      "primary": {
+        "default": {
+          "$type": "color",
+          "$value": "{brand.klima.blue.600}",
+          "$description": "Klima primary action fill in dark mode. Figma component `button`, variant Property 4=Indigo (Sistema de diseño KLIMA, read 2026-10-22)."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{brand.klima.blue.600}",
+          "$description": "Same as default until design defines a hover state. Figma component `button`, variant Property 4=Indigo (Sistema de diseño KLIMA, read 2026-10-22)."
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{brand.klima.blue.600}",
+          "$description": "Same as default until design defines a pressed state. Figma component `button`, variant Property 4=Indigo (Sistema de diseño KLIMA, read 2026-10-22)."
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{brand.klima.white.100}",
+          "$description": "Text and icons on the Klima primary action in dark mode. Figma component `button`, variant Property 4=Indigo (Sistema de diseño KLIMA, read 2026-10-22)."
+        }
+      }
+    }
+  }
+}

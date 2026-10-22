@@ -1,5 +1,12 @@
 {
   "brands": {
+    "klima": {
+      "shared": ["src/klima/font.json"],
+      "modes": {
+        "light": "src/klima/light.json",
+        "dark": "src/klima/dark.json"
+      }
+    },
     "sole": {
       "shared": ["src/sole/font.json"],
       "modes": {

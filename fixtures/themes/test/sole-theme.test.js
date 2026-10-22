@@ -1,4 +1,6 @@
-// Activates the Solé theme from the packed @klima-ds/tokens and @klima-ds/themes tarballs (TASK-010).
+// Activates the Solé (TASK-010) and Klima (TASK-019) themes from the packed @klima-ds/tokens and
+// @klima-ds/themes tarballs. Both brands share one install: packing rebuilds dist/, so parallel
+// test files would race.
 import { execFileSync } from "node:child_process";
 import { cpSync, mkdirSync, mkdtempSync, readFileSync, readdirSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -36,6 +38,7 @@ function install(app, name) {
 let app;
 let tokensCss;
 let soleCss;
+let klimaCss;
 let values;
 
 beforeAll(async () => {
@@ -46,6 +49,7 @@ beforeAll(async () => {
   cpSync(join(fixtureRoot, "src"), join(app, "src"), { recursive: true });
   tokensCss = readFileSync(join(tokensDir, "dist", "tokens.css"), "utf8");
   soleCss = readFileSync(join(themesDir, "dist", "sole.css"), "utf8");
+  klimaCss = readFileSync(join(themesDir, "dist", "klima.css"), "utf8");
   ({ values } = await import(join(tokensDir, "dist", "index.js")));
 });
 
@@ -130,6 +134,60 @@ describe("Solé theme from the packed packages", () => {
     const appCss = readFileSync(join(fixtureRoot, "src", "app.css"), "utf8");
     expect(appCss).toContain("var(--klima-");
     expect(appCss).not.toMatch(/--klima-[a-z0-9-]+\s*:/);
+  });
+});
+
+describe("Klima theme from the packed packages", () => {
+  /** Klima uses the Figma Indigo variant in both modes; other colors stay neutral. */
+  const expectedKlima = (mode) => {
+    const neutral = values[mode];
+    const fill = neutral["brand.klima.blue.600"];
+    return {
+      ...neutral,
+      "font.family.base": neutral["brand.klima.font.family.base"],
+      "color.action.primary.default": fill,
+      "color.action.primary.hover": fill,
+      "color.action.primary.active": fill,
+      "color.action.primary.foreground": neutral["brand.klima.white.100"],
+      "button.primary.background.default": fill,
+    };
+  };
+
+  it.each([
+    ["light", { "data-brand": "klima", "data-theme": "light" }],
+    ["light", { "data-brand": "klima" }],
+    ["dark", { "data-brand": "klima", "data-theme": "dark" }],
+  ])("resolves every variable in %s mode for %j", (mode, attributes) => {
+    expect(resolvedTokens([tokensCss, klimaCss], attributes)).toEqual(expectedKlima(mode));
+    expect(resolvedTokens([klimaCss, tokensCss], attributes)).toEqual(expectedKlima(mode));
+  });
+
+  it("uses the Klima blue with a light foreground for the primary action", () => {
+    expect(expectedKlima("light")["color.action.primary.default"]).toBe("#2764e9");
+    expect(expectedKlima("dark")["color.action.primary.foreground"]).toBe("#f5f5f5");
+  });
+
+  it("uses Be Vietnam Pro as the Klima typeface", () => {
+    expect(expectedKlima("light")["font.family.base"]).toBe(
+      '"Be Vietnam Pro", system-ui, sans-serif',
+    );
+  });
+
+  it("only declares rules scoped to data-brand", () => {
+    const selectors = parseStylesheets(klimaCss).map((rule) => rule.parts);
+    expect(selectors.length).toBeGreaterThan(0);
+    for (const parts of selectors)
+      expect(parts[0]).toEqual({ kind: "attribute", name: "data-brand", value: "klima" });
+  });
+
+  it("does not leak into Solé when both stylesheets are loaded", () => {
+    for (const theme of ["light", "dark"])
+      expect(
+        resolvedTokens([tokensCss, klimaCss, soleCss], {
+          "data-brand": "sole",
+          "data-theme": theme,
+        }),
+      ).toEqual(expectedSole(theme));
   });
 });
 
