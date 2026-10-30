@@ -1,6 +1,6 @@
 {
   "name": "@klima-ds/tokens",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Design tokens for Klima Design System: DTCG sources, CSS custom properties and TypeScript values",
   "license": "Apache-2.0",
   "type": "module",

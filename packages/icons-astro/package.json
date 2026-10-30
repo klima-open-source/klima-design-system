@@ -1,6 +1,6 @@
 {
   "name": "@klima-ds/icons-astro",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Astro icon components for Klima Design System",
   "type": "module",
   "sideEffects": false,

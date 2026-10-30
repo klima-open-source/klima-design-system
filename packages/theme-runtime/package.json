@@ -1,6 +1,6 @@
 {
   "name": "@klima-ds/theme-runtime",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Validated white-label themes for Klima Design System, built at runtime from tenant brand colors",
   "license": "Apache-2.0",
   "type": "module",
