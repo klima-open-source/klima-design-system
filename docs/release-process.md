@@ -58,6 +58,7 @@ Vitest se agrega como `devDependency` raíz para que cualquier paquete pueda dec
 
 - [`publint`](https://publint.dev/): valida que el `package.json` (exports, tipos, `main`, etc.) sea consumible por distintos bundlers y runtimes.
 - [`@arethetypeswrong/cli`](https://github.com/arethetypeswrong/arethetypeswrong.github.io) (`attw --pack --profile esm-only`): valida que los tipos declarados coincidan con lo que el paquete realmente exporta una vez empaquetado. Usa el perfil `esm-only` porque todos los paquetes son ESM-only: omite `node10` (sin soporte de `exports`) y `require` desde CommonJS.
+- Licencia: todo paquete con `"license": "Apache-2.0"` debe contener `LICENSE` y `NOTICE` idénticos a los de la raíz, y listar `NOTICE` en `files` (npm empaqueta `LICENSE` siempre, `NOTICE` no).
 
 ## Higiene del repositorio
 
@@ -73,10 +74,10 @@ Flujo esperado una vez existan paquetes reales:
 
 1. Cada Pull Request que cambie un paquete publicable agrega un changeset: `pnpm changeset`.
 2. Los changesets se acumulan en `.changeset/*.md` hasta que se decida cortar una versión.
-3. Fuera de alcance de esta tarea: un workflow de CI que ejecute `changeset version` y `changeset publish` con un token de npm. Se definirá cuando exista al menos un paquete publicable (ver TASK-005 en adelante) y se resuelva la decisión pendiente de licencia en `docs/project-context.md`.
+3. Fuera de alcance de esta tarea: un workflow de CI que ejecute `changeset version` y `changeset publish` con un token de npm. Se definirá cuando exista al menos un paquete publicable (ver TASK-005 en adelante). La licencia (Apache-2.0) ya está resuelta en `docs/project-context.md`.
 
 ## Fuera de alcance de TASK-003
 
 - Tokens de publicación o ejecución de un publish real.
-- Elegir la licencia del repositorio.
+- Elegir la licencia del repositorio (resuelta después: Apache-2.0, ver `docs/project-context.md`).
 - Cualquier lógica de design system o paquete real bajo `packages/`.

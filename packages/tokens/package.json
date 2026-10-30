@@ -2,6 +2,7 @@
   "name": "@klima-ds/tokens",
   "version": "0.0.0",
   "description": "Design tokens for Klima Design System: DTCG sources, CSS custom properties and TypeScript values",
+  "license": "Apache-2.0",
   "type": "module",
   "sideEffects": [
     "*.css"
@@ -9,7 +10,8 @@
   "files": [
     "dist",
     "src/tokens",
-    "manifest.json"
+    "manifest.json",
+    "NOTICE"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

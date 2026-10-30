@@ -41,6 +41,37 @@ function findPublishablePackages() {
     });
 }
 
+// Packages that declare the repository license must ship the same LICENSE and
+// NOTICE as the root. npm always packs LICENSE, but NOTICE only when listed in `files`.
+// Icon packages are excluded until the CC BY 4.0 licensing of the SVGs is resolved
+// (docs/project-context.md, pending decision 1).
+const REPO_LICENSE = "Apache-2.0";
+
+function checkLicense(target) {
+  const pkg = JSON.parse(readFileSync(join(target, "package.json"), "utf8"));
+  if (pkg.license !== REPO_LICENSE) {
+    return [];
+  }
+
+  const errors = [];
+  for (const file of ["LICENSE", "NOTICE"]) {
+    let content;
+    try {
+      content = readFileSync(join(target, file), "utf8");
+    } catch {
+      errors.push(`${file} is missing`);
+      continue;
+    }
+    if (content !== readFileSync(join(rootDir, file), "utf8")) {
+      errors.push(`${file} differs from the root ${file}`);
+    }
+  }
+  if (Array.isArray(pkg.files) && !pkg.files.includes("NOTICE")) {
+    errors.push(`"files" does not include NOTICE`);
+  }
+  return errors;
+}
+
 function run(label, command, args, cwd) {
   console.log(`--- ${label}: ${command} ${args.join(" ")} (${cwd}) ---`);
   execFileSync(command, args, { cwd, stdio: "inherit", shell: process.platform === "win32" });
@@ -58,6 +89,14 @@ if (targets.length === 0) {
 
 let failed = false;
 for (const target of targets) {
+  const licenseErrors = checkLicense(target);
+  if (licenseErrors.length > 0) {
+    failed = true;
+    for (const message of licenseErrors) {
+      console.error(`FAIL license check for ${target}: ${message}`);
+    }
+  }
+
   try {
     run("publint", "pnpm", ["exec", "publint", target], rootDir);
     run(

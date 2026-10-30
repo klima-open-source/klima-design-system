@@ -2,13 +2,15 @@
   "name": "@klima-ds/themes",
   "version": "0.0.0",
   "description": "Brand themes for Klima Design System: semantic token values per brand and color scheme",
+  "license": "Apache-2.0",
   "type": "module",
   "sideEffects": [
     "*.css"
   ],
   "files": [
     "dist/*.css",
-    "dist/*.css.d.ts"
+    "dist/*.css.d.ts",
+    "NOTICE"
   ],
   "exports": {
     "./klima.css": {

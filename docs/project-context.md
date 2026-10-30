@@ -49,13 +49,13 @@ Figma expresa la intención visual actual, pero necesita normalización antes de
 ### Resueltas
 
 1. Repositorio `klima-design-system` y scope npm `@klima-ds`.
-2. Licencia propuesta, sujeta a revisión legal: Apache-2.0 para el código, `TRADEMARKS.md` para nombres e identidad de marca, y logos excluidos de la licencia abierta (todos los derechos reservados).
+2. Licencia del código: Apache-2.0, con Solenium S.A.S. como titular del copyright (`LICENSE` y `NOTICE` en la raíz y en cada paquete publicable con esa licencia). Nombres, identidad de marca y logos quedan excluidos de la licencia abierta (todos los derechos reservados); `TRADEMARKS.md` sigue pendiente. Los paquetes de iconos no declaran licencia hasta resolver la pendiente 1.
 3. Tipografía de Solé: Montserrat.
    - **MUST:** Montserrat se distribuye bajo SIL Open Font License 1.1. Si un paquete incluye archivos de la fuente, debe incluir también el texto de la OFL y respetar sus condiciones.
 4. Versiones mínimas: React `>=18`; Vue y Astro en su última versión estable al momento de implementar.
    - **MUST:** Soportar React 18 implica usar `forwardRef` en componentes e iconos; `ref` como prop solo existe en React 19.
 5. Registro público: npmjs.
-6. Visibilidad del repositorio: público. Sin archivo `LICENSE`, el contenido es "todos los derechos reservados" hasta publicar la licencia.
+6. Visibilidad del repositorio: público.
 
 ### Pendientes
 
