@@ -531,14 +531,12 @@
       "sha256": "182ab3509006bb353acf5f4aab812693bb12ac351c3c639d479a9d22de0dd08d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-down",
-      "component": "ArrowDown",
+      "name": "arrow-down-2",
+      "component": "ArrowDown2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1814",
@@ -552,14 +550,14 @@
       "sha256": "1621b4109cd3a134cdb6ad7861d38d5c9f956fcf37c6af0b2f559081850085ba",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-down"
       ]
     },
     {
-      "name": "arrow-down",
-      "component": "ArrowDown",
+      "name": "arrow-down-3",
+      "component": "ArrowDown3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1825",
@@ -573,9 +571,9 @@
       "sha256": "617f83bd213bbbc52cb4dd9db1c682b5882323b66e9f618e3857e5d1466611d9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-down"
       ]
     },
     {
@@ -594,14 +592,12 @@
       "sha256": "94a178084dab0e04eb319786bcba020e145642cac9e3d0ec82979a6b0294e660",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-left",
-      "component": "ArrowLeft",
+      "name": "arrow-left-2",
+      "component": "ArrowLeft2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1830",
@@ -615,14 +611,14 @@
       "sha256": "4e9d4378c2a3f66e9114dc2fee694d1f01733fb2f339d81c5d5584af9ad380cf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-left"
       ]
     },
     {
-      "name": "arrow-left",
-      "component": "ArrowLeft",
+      "name": "arrow-left-3",
+      "component": "ArrowLeft3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1835",
@@ -636,9 +632,9 @@
       "sha256": "c91f8fea87306a6a0167ae6b108af01e9af081411391a2a78a30afe950e93d7b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-left"
       ]
     },
     {
@@ -657,14 +653,12 @@
       "sha256": "37089a3287632fe85f74e9ab6fc12552c80d315f91364b35b95679b4a1cf7ca8",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-right",
-      "component": "ArrowRight",
+      "name": "arrow-right-2",
+      "component": "ArrowRight2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1839",
@@ -678,9 +672,9 @@
       "sha256": "9d9b04d9bb40dd35b13629dff8e2fc64baed6e13036b70ee334b91de8dcbba6f",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:arrow-right"
       ]
     },
     {
@@ -718,14 +712,12 @@
       "sha256": "bd2a240ab65ebc2e1ffc2221aecc36e2b6abfee2d4242fd7440ca828ea1307ec",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-up",
-      "component": "ArrowUp",
+      "name": "arrow-up-2",
+      "component": "ArrowUp2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1837",
@@ -739,9 +731,9 @@
       "sha256": "f675be1628917cae7e9922aaee4735994485d6ca050df0dd8eb36ad997df33dd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:arrow-up"
       ]
     },
     {
@@ -931,14 +923,12 @@
       "sha256": "68c85cd54037fc9c6bf5816be7f3e99be95ca5469b8db4280b1864ccaf52ad00",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "battery-empty",
-      "component": "BatteryEmpty",
+      "name": "battery-empty-2",
+      "component": "BatteryEmpty2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1988",
@@ -952,9 +942,9 @@
       "sha256": "31d29d088cb3a7bd3c71d1f1a687730a0bab715e023fe93f0b4343291d0fc9e8",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:battery-empty"
       ]
     },
     {
@@ -1125,14 +1115,12 @@
       "sha256": "e07e6d967e4f02d62cafa83e3c0c969012c1eb582503bcbfbed312fbbd747419",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-2",
+      "component": "Brush2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1731",
@@ -1146,14 +1134,14 @@
       "sha256": "c1a6873df21e267732a97122d10f9e3be6b902fa9f25c15465c63109c3ba9e9e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:brush"
       ]
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-3",
+      "component": "Brush3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1735",
@@ -1167,9 +1155,9 @@
       "sha256": "5cfca248df05f9ed312454c77759163a2b07de69f46305437b0d6989542d8fd7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:brush"
       ]
     },
     {
@@ -1340,14 +1328,12 @@
       "sha256": "b1d90263e6c25f6befb483ae46e5642a6698bdaa8b11a4658ab3f48dd1a83a78",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "calendar",
-      "component": "Calendar",
+      "name": "calendar-2",
+      "component": "Calendar2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1639",
@@ -1361,9 +1347,9 @@
       "sha256": "b4c7aa3730a2128fbf105f6c91d56dded12e4e1ff40eb7dc0a2477dc962ca09e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:calendar"
       ]
     },
     {
@@ -1857,14 +1843,12 @@
       "sha256": "5a029dcd969a7d2114f1b626d0854f00d8df16679b0d61c07a289ff193847871",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "chart",
-      "component": "Chart",
+      "name": "chart-3",
+      "component": "Chart3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1893",
@@ -1878,9 +1862,9 @@
       "sha256": "6f8457338ded9b3c4dcee036e07bd4698dbfda5bb5da56eee96044f344930b07",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:chart"
       ]
     },
     {
@@ -2013,14 +1997,12 @@
       "sha256": "dd08aa2cf0d3abf1705acf85354fff289df636f36093cb70dfa5127f5b8df6a9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "clock",
-      "component": "Clock",
+      "name": "clock-2",
+      "component": "Clock2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1638",
@@ -2034,9 +2016,9 @@
       "sha256": "6af1554399abaae6044ca3a60e094340622f2022492fb055efb325d47bb5441c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:clock"
       ]
     },
     {
@@ -2745,14 +2727,12 @@
       "sha256": "9df776305cbf4db847976054e306b5e43c0298912c0f8b9e4398a58ba7a6df06",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "devices",
-      "component": "Devices",
+      "name": "devices-2",
+      "component": "Devices2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1423",
@@ -2766,9 +2746,9 @@
       "sha256": "9367999a172a4641405c52f540c20d511e9a46854c88b1d13c8b7676da0ced9e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:devices"
       ]
     },
     {
@@ -2996,14 +2976,12 @@
       "sha256": "71897c2a0027ae87b68555783a2da126352f17758509271e2b4cced18ee646e7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "document",
-      "component": "Document",
+      "name": "document-2",
+      "component": "Document2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1924",
@@ -3017,9 +2995,9 @@
       "sha256": "713a77d12e5b4bc2e832c455aa7be96ac0427344feb5cc8f1cf79ef3876efd48",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:document"
       ]
     },
     {
@@ -3570,14 +3548,12 @@
       "sha256": "c1851a7e28927201cad776366b1a118cf737c09622e1a111fc4224ba21983892",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "export",
-      "component": "Export",
+      "name": "export-2",
+      "component": "Export2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1821",
@@ -3591,14 +3567,14 @@
       "sha256": "14ea87dd5eaabecd0fe2fc9dee3df47aad94c1a86e5b5e7a550116cdaa2a6c11",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:export"
       ]
     },
     {
-      "name": "export",
-      "component": "Export",
+      "name": "export-3",
+      "component": "Export3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1828",
@@ -3612,9 +3588,9 @@
       "sha256": "c4a0fe3bf198a04ad54ba45a86cc21cde3827c21848711716d805bd282e4a5a8",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:export"
       ]
     },
     {
@@ -3785,14 +3761,12 @@
       "sha256": "eb22b05709fe211d37fe9f1f694de1aefcd40173e9684701493188a533ee4b94",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "flash",
-      "component": "Flash",
+      "name": "flash-2",
+      "component": "Flash2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1961",
@@ -3806,9 +3780,9 @@
       "sha256": "260d7166a6d046c56ee4d2ffe93b7a263248c84755d2f00d0e03fcf2e43904bf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:flash"
       ]
     },
     {
@@ -4536,14 +4510,12 @@
       "sha256": "1b7fd27bd6a8599658924be4277beec5565d60a534e45a958394c9bf8c91c3ef",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "hashtag",
-      "component": "Hashtag",
+      "name": "hashtag-2",
+      "component": "Hashtag2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1948",
@@ -4557,9 +4529,9 @@
       "sha256": "99d13d47c4d2555ed258dc416fcc17028cbe342634d13c806cd113ef5564b925",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:hashtag"
       ]
     },
     {
@@ -4958,14 +4930,12 @@
       "sha256": "5e1de842380a93d389ddbd22eeb722a747df2abcb9ac2fbdf8bda24f1245de7e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "import",
-      "component": "Import",
+      "name": "import-2",
+      "component": "Import2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1819",
@@ -4979,14 +4949,14 @@
       "sha256": "73586f367362581c43137c7bd4ef954d26f4528176545d968f3ecfa1b7891b66",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:import"
       ]
     },
     {
-      "name": "import",
-      "component": "Import",
+      "name": "import-3",
+      "component": "Import3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1826",
@@ -5000,9 +4970,9 @@
       "sha256": "c84879df46bf1721b800546284b5404e5a19e84eea9ca81405cb072cb2d60c79",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:import"
       ]
     },
     {
@@ -5159,14 +5129,12 @@
       "sha256": "46184ebe22577b35d2b5811fd20f77247e302cc93644325bdbb6415f0de4b8ad",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "lamp",
-      "component": "Lamp",
+      "name": "lamp-2",
+      "component": "Lamp2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1606",
@@ -5180,9 +5148,9 @@
       "sha256": "887819d6fef525d8913073565041955f5aa89b70b7c58f4216244c9129b22628",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:lamp"
       ]
     },
     {
@@ -5277,14 +5245,12 @@
       "sha256": "ef0a373d6a1042daae4cb5c48ddcbe7849c4dbec1b805e96a275e10418747f97",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "like",
-      "component": "Like",
+      "name": "like-2",
+      "component": "Like2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1937",
@@ -5298,9 +5264,9 @@
       "sha256": "03ba268f3fd16df8c25d4813d043d939febcfb645e423bfa32b1ae3b16276196",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:like"
       ]
     },
     {
@@ -5436,14 +5402,12 @@
       "sha256": "d9a2f9ff52ee0e2a10ff4185857f21dd6262e808c40d96de921a13144feb505b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "lock",
-      "component": "Lock",
+      "name": "lock-2",
+      "component": "Lock2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1499",
@@ -5457,9 +5421,9 @@
       "sha256": "bc168b97dc6b5f0f8ec4db0725fc4ca88199455de6404cf2a561f4a0090371cf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:lock"
       ]
     },
     {
@@ -5611,14 +5575,12 @@
       "sha256": "d735afa9917e561a6d136d9c5e17a2b47799d190c54ca5ae282e97a844d39a5d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "map",
-      "component": "Map",
+      "name": "map-2",
+      "component": "Map2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1203",
@@ -5632,9 +5594,9 @@
       "sha256": "2ab3b93dda6f848ca8d70996802774993ad022bf380daf72d98afa7ebbe067cc",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:map"
       ]
     },
     {
@@ -5881,14 +5843,12 @@
       "sha256": "75c1783614826583c1c9ba2f1ad4e463c7ad968a996876e3d72e906c3e22a9dc",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "message-text",
-      "component": "MessageText",
+      "name": "message-text-2",
+      "component": "MessageText2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1775",
@@ -5902,9 +5862,9 @@
       "sha256": "3627b9fcfb65af55756d7452da11344b97ac507ceb0729551d9b1acd1f744630",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:message-text"
       ]
     },
     {
@@ -6379,14 +6339,12 @@
       "sha256": "27e2caf3eae51046fbcdb5a0752db99952122554aea677d0703544f9e8f1992e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "mouse",
-      "component": "Mouse",
+      "name": "mouse-2",
+      "component": "Mouse2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1603",
@@ -6400,9 +6358,9 @@
       "sha256": "336afd374af9068c29912fb6000d34ea64ee88ffae95e74d7a541bff35e5104f",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:mouse"
       ]
     },
     {
@@ -6611,14 +6569,12 @@
       "sha256": "5803a1bcd886125e0c44ab66cf8a97ae589bb1cc82622e10b95e03b76213cf71",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "notification",
-      "component": "Notification",
+      "name": "notification-2",
+      "component": "Notification2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1931",
@@ -6632,9 +6588,9 @@
       "sha256": "972b27cc9eeeb858fd65850e21a1cc1684941a381ff2e6d608aef20d2a64037d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:notification"
       ]
     },
     {
@@ -7094,14 +7050,12 @@
       "sha256": "536e880961e3900810dede8f46979d019ead562c8e493d7bbee0c5bb6bb5141d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "ranking",
-      "component": "Ranking",
+      "name": "ranking-2",
+      "component": "Ranking2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1560",
@@ -7115,9 +7069,9 @@
       "sha256": "2f0d8b8b58e8b91ccf33df914b097dc3ac16e81705d7a41603ff1593a6e57ec3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:ranking"
       ]
     },
     {
@@ -7136,14 +7090,12 @@
       "sha256": "12e4c5879951eb20a42eb8e7bed969116941a133b085f0a617dbeaec43c908df",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "receipt",
-      "component": "Receipt",
+      "name": "receipt-3",
+      "component": "Receipt3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1917",
@@ -7157,9 +7109,9 @@
       "sha256": "303190edc852dfa369751bbfa127046dc9e4891c692e732d2204de59877546bb",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:receipt"
       ]
     },
     {
@@ -7178,14 +7130,12 @@
       "sha256": "ca4431c21957b7d29bfd20f06b2bc7ca304ff5c564c2696c7b7652cd3f01ed6d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "receipt-2",
-      "component": "Receipt2",
+      "name": "receipt-2-2",
+      "component": "Receipt22",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1915",
@@ -7199,9 +7149,9 @@
       "sha256": "1943c6daf62c10049e302783d7a6ac95568f152dbf2dd4e5b76acbe944282a61",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:receipt-2"
       ]
     },
     {
@@ -7543,14 +7493,12 @@
       "sha256": "16f48be1922670fde30a35b5fa6b87d6b7f09888e91292d5c0e62e84bc61a080",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "rotate-left",
-      "component": "RotateLeft",
+      "name": "rotate-left-2",
+      "component": "RotateLeft2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1811",
@@ -7564,9 +7512,9 @@
       "sha256": "8636235ead1ba969a1dad2cd09069c9312f8cd7c242ccc477dbdcbca720c2bcd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:rotate-left"
       ]
     },
     {
@@ -7585,14 +7533,12 @@
       "sha256": "0bf65661132eb9459ec0cda2c19acd268154940776dbf62837b838fe092e9ae2",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "rotate-right",
-      "component": "RotateRight",
+      "name": "rotate-right-2",
+      "component": "RotateRight2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1798",
@@ -7606,9 +7552,9 @@
       "sha256": "ed1033d0ba63c22b388755ae53f80322eea821a42bf7c4126e3f2dac3111df10",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:rotate-right"
       ]
     },
     {
@@ -8292,14 +8238,12 @@
       "sha256": "337ea12563557237eee89c51fdec581afa83e77d7801481d3699a73f5a07668c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "simcard",
-      "component": "Simcard",
+      "name": "simcard-3",
+      "component": "Simcard3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1608",
@@ -8313,9 +8257,9 @@
       "sha256": "19ca7aa902064a84f42713f51511ba992c2a3aeeb56bfd8c31a3e44ea226213c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:simcard"
       ]
     },
     {
@@ -8714,14 +8658,12 @@
       "sha256": "25dae09733c59ad521c8fa2ff407dd3a79d80daab5372d85abb86a617e86f065",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "sun",
-      "component": "Sun",
+      "name": "sun-2",
+      "component": "Sun2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1790",
@@ -8735,9 +8677,9 @@
       "sha256": "5dade3368b457aa2c107f31f62413e82122d325c77f94e5ac8973bb26c9a7fe3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:sun"
       ]
     },
     {
@@ -8927,14 +8869,12 @@
       "sha256": "691eb27a139270d1fe3bf9ac034b407b8cbdf3c35d4bc82724887fdb1931aed0",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "timer",
-      "component": "Timer",
+      "name": "timer-2",
+      "component": "Timer2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1642",
@@ -8948,9 +8888,9 @@
       "sha256": "c8720cac0f244c9544b83c98c3407e47cf95c8e077922bd752cfd765f03b9483",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:timer"
       ]
     },
     {
@@ -9695,14 +9635,12 @@
       "sha256": "827228797b58dc765160891ef2d45bae6a22e270d4bfbf8e3a1658939a79f0d9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "volume-low",
-      "component": "VolumeLow",
+      "name": "volume-low-2",
+      "component": "VolumeLow2",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1845",
@@ -9716,9 +9654,9 @@
       "sha256": "997d91bdfa5d05abf9d3d7ca86679af0efb83b665f1843e6a0ada21e88423255",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:volume-low"
       ]
     },
     {
@@ -9794,14 +9732,12 @@
       "sha256": "1548558c3cfc894d10514c74c7b7abc1580b583b0b2442a4423e0d9319c3423b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "wallet",
-      "component": "Wallet",
+      "name": "wallet-3",
+      "component": "Wallet3",
       "style": "bold",
       "figma": {
         "nodeId": "3195:1899",
@@ -9815,9 +9751,9 @@
       "sha256": "14865cc14cbbeb5d83363bfc6eae3e08678c715e40bbe8776c97293de59753a4",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:wallet"
       ]
     },
     {

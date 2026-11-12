@@ -101,20 +101,35 @@ describe("buildInventory", () => {
     ]);
   });
 
-  it("collapses identical duplicates and blocks conflicting ones", () => {
+  it("collapses identical duplicates and suffixes conflicting ones", () => {
     const { entries } = buildInventory("file", "linear", [
       raw("1:1", "vuesax/linear/star", "<svg>same</svg>"),
       raw("1:2", "vuesax/linear/star", "<svg>same</svg>"),
       raw("2:1", "vuesax/linear/flash", "<svg>a</svg>"),
       raw("2:2", "vuesax/linear/flash", "<svg>b</svg>"),
+      raw("2:3", "vuesax/linear/flash", "<svg>a</svg>"),
+      raw("2:4", "vuesax/linear/flash", "<svg>c</svg>"),
+      raw("3:1", "vuesax/linear/flash-2", "<svg>d</svg>"),
     ]);
-    const statuses = entries.map((entry) => [entry.figma.nodeId, entry.status, entry.duplicateOf]);
+    const statuses = entries.map((entry) => [
+      entry.figma.nodeId,
+      entry.name,
+      entry.component,
+      entry.status,
+      entry.duplicateOf,
+    ]);
     expect(statuses).toEqual([
-      ["2:1", "blocked", undefined],
-      ["2:2", "blocked", undefined],
-      ["1:1", "candidate", undefined],
-      ["1:2", "duplicate", "1:1"],
+      ["2:1", "flash", "Flash", "candidate", undefined],
+      ["2:2", "flash-3", "Flash3", "candidate", undefined],
+      ["2:3", "flash", "Flash", "duplicate", "2:1"],
+      ["2:4", "flash-4", "Flash4", "candidate", undefined],
+      ["3:1", "flash-2", "Flash2", "candidate", undefined],
+      ["1:1", "star", "Star", "candidate", undefined],
+      ["1:2", "star", "Star", "duplicate", "1:1"],
     ]);
+    expect(entries.find((entry) => entry.figma.nodeId === "2:2")?.issues).toContain(
+      "name-suffixed:flash",
+    );
   });
 
   it("only generates candidates and reports their unconfirmed provenance", () => {

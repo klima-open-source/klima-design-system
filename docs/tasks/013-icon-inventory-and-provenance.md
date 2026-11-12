@@ -54,7 +54,6 @@ Determinar qué SVG pueden migrarse y publicarse legalmente antes de copiarlos a
 Motivos:
 
 - **`blocked`**:
-  - mismo nombre con SVG distinto (28–74 nombres por estilo); por decisión del propietario no se publican;
   - componentes sin nombre (`Group 80xx`, `Vector`, `Component`).
 - **`duplicate`**: mismo nombre y mismo SVG; se publica una sola vez.
 - **`excluded`**:
@@ -64,7 +63,7 @@ Motivos:
   - componentes que Figma no puede exportar a SVG.
 
 - Nombres corregidos, sin alias: `finger-cricle` → `finger-circle`, `money-recive` → `money-receive`, `play-cricle` → `play-circle`, `presention-chart` → `presentation-chart`, `trush-square` → `trash-square`.
-- Los 28 conflictos difieren incluso tras normalizar; probablemente correspondan a variantes numeradas de Iconsax (`brush-1`, `brush-2`…) que perdieron el sufijo. Requieren decisión de diseño.
+- Los 28 conflictos difieren incluso tras normalizar; probablemente correspondan a variantes numeradas de Iconsax (`brush-1`, `brush-2`…) que perdieron el sufijo. Por decisión del propietario (2026-11-12), la primera variante por `nodeId` conserva el nombre y las demás reciben el siguiente sufijo numérico libre (`brush-2`, `brush-3`…; si `calendar-2` ya existe, se usa `calendar-3`). Quedan marcadas con `name-suffixed:<base>`. El sufijo se asigna por estilo, así que `brush-2` puede no ser el mismo glifo en `linear` y en `bold`.
 - Los iconos propios del frame `Personalizados - Solenium` no tienen nombre (`Group 8013`…`Group 8040`) y tienen tamaños distintos de 24×24.
 - `vuesax/linear/grid-solarview` y `vuesax/linear/cronograma` usan el prefijo de Iconsax, pero sus nombres no parecen de Iconsax; hay que verificar su origen antes de atribuirlos.
 

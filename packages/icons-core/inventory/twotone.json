@@ -560,14 +560,12 @@
       "sha256": "a759899cc1e8d061c556949752d1854908e94e12428671b8014f71c6a1554384",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "archive",
-      "component": "Archive",
+      "name": "archive-2",
+      "component": "Archive2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3899",
@@ -581,9 +579,9 @@
       "sha256": "c51ee2e3e708441b7960b6759b31813bde4828442ffc30fce9ead4f8c4d6c6ad",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:archive"
       ]
     },
     {
@@ -906,14 +904,12 @@
       "sha256": "fb65090cc6a2cf8916b7edcd4ad8ae49dcb5ab8484e94ff42eebc0612fd32091",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-down",
-      "component": "ArrowDown",
+      "name": "arrow-down-2",
+      "component": "ArrowDown2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3304",
@@ -927,14 +923,14 @@
       "sha256": "5f3b9222dd9764da4789956e99090907ccbf56352a72705f738d6956020caccd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-down"
       ]
     },
     {
-      "name": "arrow-down",
-      "component": "ArrowDown",
+      "name": "arrow-down-3",
+      "component": "ArrowDown3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3315",
@@ -948,9 +944,9 @@
       "sha256": "bd68121683bf23ce6d2827ed690b38e694121cde5cfd854cf37d78ed8f2a7899",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:arrow-down"
       ]
     },
     {
@@ -969,14 +965,12 @@
       "sha256": "496fc562dde3d7cc0a80eda48f9c4ce88dc7c1f86b4c69408ed9ca3ce7f7fc19",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-left",
-      "component": "ArrowLeft",
+      "name": "arrow-left-2",
+      "component": "ArrowLeft2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3309",
@@ -990,14 +984,14 @@
       "sha256": "00f345c49bc181a602ca8de7f7c64e5c5ee884faa14e02d8816df17d56b811a4",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-left"
       ]
     },
     {
-      "name": "arrow-left",
-      "component": "ArrowLeft",
+      "name": "arrow-left-3",
+      "component": "ArrowLeft3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3313",
@@ -1011,14 +1005,14 @@
       "sha256": "74a28cd1ebfe1666aa67fa897c7363e3976003d219a49c0d8c09b6c6f6d3f013",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-left"
       ]
     },
     {
-      "name": "arrow-left",
-      "component": "ArrowLeft",
+      "name": "arrow-left-4",
+      "component": "ArrowLeft4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3324",
@@ -1032,9 +1026,9 @@
       "sha256": "5b8f15f65d14f3ca6c87470c98367e67cdcec15125cc8dc5b32d45b1eaf53213",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-left"
       ]
     },
     {
@@ -1053,14 +1047,12 @@
       "sha256": "6192992ac14967823cd6030d3e1bfbbb88e7785bfabdab5dad2a2f211e70de51",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-right",
-      "component": "ArrowRight",
+      "name": "arrow-right-2",
+      "component": "ArrowRight2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3306",
@@ -1074,14 +1066,14 @@
       "sha256": "1e6c97746061bb99b4a8b477caf4c6b1442a1a0a7259352c2d23c1a30d7be776",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-right"
       ]
     },
     {
-      "name": "arrow-right",
-      "component": "ArrowRight",
+      "name": "arrow-right-3",
+      "component": "ArrowRight3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3314",
@@ -1095,14 +1087,14 @@
       "sha256": "055fa0c6ceba0925fc5bec3341df10680bff518c4deaf13b2da782576b66f1bc",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-right"
       ]
     },
     {
-      "name": "arrow-right",
-      "component": "ArrowRight",
+      "name": "arrow-right-4",
+      "component": "ArrowRight4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3332",
@@ -1116,9 +1108,9 @@
       "sha256": "95cb476e52f50b16d6f66ba045f829995b30e2d6fab89228ab59d7e9a07456b1",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-right"
       ]
     },
     {
@@ -1251,14 +1243,12 @@
       "sha256": "d02819a03b658f41658a908cc0a14a8adebfaafd9e0addefff1d8f18f0427b6f",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "arrow-up",
-      "component": "ArrowUp",
+      "name": "arrow-up-2",
+      "component": "ArrowUp2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3305",
@@ -1272,14 +1262,14 @@
       "sha256": "6f881600f55bac398324d334012f2b1a646ebd2a7cac51a3cae86830e41f05f0",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-up"
       ]
     },
     {
-      "name": "arrow-up",
-      "component": "ArrowUp",
+      "name": "arrow-up-3",
+      "component": "ArrowUp3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3308",
@@ -1293,14 +1283,14 @@
       "sha256": "db25a0af031239f758d346183fa4438a09be59bbe3028b9018e9d189915b2be3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-up"
       ]
     },
     {
-      "name": "arrow-up",
-      "component": "ArrowUp",
+      "name": "arrow-up-4",
+      "component": "ArrowUp4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3321",
@@ -1314,9 +1304,9 @@
       "sha256": "092276e368419171c13d55fdbb6db1ecb8a20c01982ef0cfd1560ec35d9b383c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:arrow-up"
       ]
     },
     {
@@ -1648,14 +1638,12 @@
       "sha256": "c9cc93264fb21f700456fc3c4cbb14f639ad376a74b710b53f465ae557938bae",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "bag-cross",
-      "component": "BagCross",
+      "name": "bag-cross-2",
+      "component": "BagCross2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3414",
@@ -1669,9 +1657,9 @@
       "sha256": "3a10addab086c3960be4c8caf48bbf691e0604cadf33a368be66723ed2449ed0",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:bag-cross"
       ]
     },
     {
@@ -1842,14 +1830,12 @@
       "sha256": "6ac063f665fc46ff34c0765b2485c0a8257b278835c0a7339d6fccafa89dce0a",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "battery-empty",
-      "component": "BatteryEmpty",
+      "name": "battery-empty-2",
+      "component": "BatteryEmpty2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3621",
@@ -1863,9 +1849,9 @@
       "sha256": "92cefd98c855cec7dca39c83c0984f3b9aca44f1e305b1d9a110263ef8cfe8b5",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:battery-empty"
       ]
     },
     {
@@ -2241,14 +2227,12 @@
       "sha256": "0539fd0c4c787ed7e80d984049d50dc01ab0c0cedb660dc084280e5f7ac79ae6",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "book",
-      "component": "Book",
+      "name": "book-2",
+      "component": "Book2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3431",
@@ -2262,9 +2246,9 @@
       "sha256": "f0eaa7ff704fcb3b1570623cf376517db96ada369fb69059b272f023cd7260ea",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:book"
       ]
     },
     {
@@ -2380,14 +2364,12 @@
       "sha256": "c95fa1ab4f2555211eaa52cbb262a4e6ac9d3ee5db70fc140ec3220c5a6c1cd2",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "box",
-      "component": "Box",
+      "name": "box-3",
+      "component": "Box3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3842",
@@ -2401,9 +2383,9 @@
       "sha256": "03eaf2ccd96bc34b57250a7f599109c49992902ceaf364f1b89902954044a4ba",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:box"
       ]
     },
     {
@@ -2631,14 +2613,12 @@
       "sha256": "5ef052deeaed115bec3395ef22e906ca4743ad3a3761bff65c4d81c318b05335",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:5"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-2",
+      "component": "Brush2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3377",
@@ -2652,14 +2632,14 @@
       "sha256": "0d2a701ee700e7e65f4d673d598ec898eaecf25bacaf28b889bcf6ef39749d3f",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:5"
+        "name-suffixed:brush"
       ]
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-3",
+      "component": "Brush3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3379",
@@ -2673,14 +2653,14 @@
       "sha256": "b30215070e83101fb531a946707772e4c9a0555276c3a9950829d3318fa24656",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:5"
+        "name-suffixed:brush"
       ]
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-4",
+      "component": "Brush4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3380",
@@ -2694,14 +2674,14 @@
       "sha256": "7d9a65b707910a18904f7ff2fd329c31a3a3aa1e7aa35f6da6c8f27d96957de0",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:5"
+        "name-suffixed:brush"
       ]
     },
     {
-      "name": "brush",
-      "component": "Brush",
+      "name": "brush-5",
+      "component": "Brush5",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4035",
@@ -2715,9 +2695,9 @@
       "sha256": "8231072a1335cfe53032d208c033d5d4728c1dffa8d625c6d123b92d0c1ab0b9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:5"
+        "name-suffixed:brush"
       ]
     },
     {
@@ -3002,14 +2982,12 @@
       "sha256": "da5ade82f87e4e3fad8cec140d647a93adc6c94d6fdebb95423001559fdde12e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "calendar",
-      "component": "Calendar",
+      "name": "calendar-3",
+      "component": "Calendar3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3850",
@@ -3023,9 +3001,9 @@
       "sha256": "dee7f1c87ba069b0d3c4e4217e412967d2499cdb241efcc46e2cdd8eaff648ff",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:calendar"
       ]
     },
     {
@@ -3557,14 +3535,12 @@
       "sha256": "8b57c5ea12bd85e92c7b2218d7db95a4cfa4dd65c06f1e0ac7e487b34b044d1b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "card-remove",
-      "component": "CardRemove",
+      "name": "card-remove-2",
+      "component": "CardRemove2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3902",
@@ -3578,9 +3554,9 @@
       "sha256": "5db756a0dcf3253ff06aa954235c777ebf9b914d2cc9eeadd8b7106f2d1005e8",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:card-remove"
       ]
     },
     {
@@ -3637,14 +3613,12 @@
       "sha256": "98711b97d7da37901b19db3b90a8ea70f4f2533d47afb7aec07c49fce054b883",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "card-tick",
-      "component": "CardTick",
+      "name": "card-tick-2",
+      "component": "CardTick2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3935",
@@ -3658,9 +3632,9 @@
       "sha256": "48afe58c9f573d9e0c0a4a5e0b933952900ca72d83db162c4d5c1fbb55f2bba7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:card-tick"
       ]
     },
     {
@@ -3845,14 +3819,12 @@
       "sha256": "0a065a5127889dd5b3a4f7243dd624cf52745cf1910c8b50b9aeea5705e2a01b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "chart",
-      "component": "Chart",
+      "name": "chart-3",
+      "component": "Chart3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3617",
@@ -3866,14 +3838,14 @@
       "sha256": "a2f70eb33f7cf274d0636ca87985cff2994a10d6215a3c0eadd35d3ea2f3eebc",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:chart"
       ]
     },
     {
-      "name": "chart",
-      "component": "Chart",
+      "name": "chart-4",
+      "component": "Chart4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3667",
@@ -3887,14 +3859,14 @@
       "sha256": "59678c64e81c239f7de5fb340fbb2a1de4cd64d7893ce8b885d2a62fc9314fe4",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:chart"
       ]
     },
     {
-      "name": "chart",
-      "component": "Chart",
+      "name": "chart-5",
+      "component": "Chart5",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3695",
@@ -3908,9 +3880,9 @@
       "sha256": "b045e888438003419474b2db6f4596f7f933f0dd01becb96de01ef8612a29930",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:chart"
       ]
     },
     {
@@ -4160,14 +4132,12 @@
       "sha256": "f8981ee6b6738fb5d351098e8ebb4a282cb11659566b598bf52ec62c226841e9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "clock",
-      "component": "Clock",
+      "name": "clock-2",
+      "component": "Clock2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3584",
@@ -4181,9 +4151,9 @@
       "sha256": "02227b132b52e59cdceeefd26eccb66a36e9783892d1412f8f1a346be971a1ab",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:clock"
       ]
     },
     {
@@ -4506,14 +4476,12 @@
       "sha256": "1a419920f1113f3dcc7e82d498134aa9b3803bb7d0d2a4d8adf96773467616a7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "code",
-      "component": "Code",
+      "name": "code-2",
+      "component": "Code2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3535",
@@ -4527,9 +4495,9 @@
       "sha256": "9fc4aecbabaa49e00601565b7617c0da606499b85788d1645a87f85a5624596b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:code"
       ]
     },
     {
@@ -4586,14 +4554,12 @@
       "sha256": "8fe574e0ce0af23aa919bf8402a8b9146cb06a07abdb1cb76eb9ff3589a2723d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "coin",
-      "component": "Coin",
+      "name": "coin-2",
+      "component": "Coin2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3934",
@@ -4607,9 +4573,9 @@
       "sha256": "25da6589cb84ac71459e3e405bc2c33aaa292a4700eca34352337563cdb41c73",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:coin"
       ]
     },
     {
@@ -5029,14 +4995,12 @@
       "sha256": "56a53b0d6702cb8c3422e49a1c80189474fd9edbbb2bbe7113c2b9fc5313d8c7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "crown",
-      "component": "Crown",
+      "name": "crown-2",
+      "component": "Crown2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3652",
@@ -5050,9 +5014,9 @@
       "sha256": "76040dac7d8e5f54d27de35a52fce01c271741eecfaa03c9862719bfcdf0a380",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:crown"
       ]
     },
     {
@@ -5615,14 +5579,12 @@
       "sha256": "7e64c4a32dec42ef537bf782aad177280bbc39de7ecfc0beae717369ba063b99",
       "origin": "custom",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "discover",
-      "component": "Discover",
+      "name": "discover-2",
+      "component": "Discover2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3674",
@@ -5636,9 +5598,9 @@
       "sha256": "295d7442b2c0727ab95ed5a6713048381f7dec6630faaa8927ae3b2170b7c715",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:discover"
       ]
     },
     {
@@ -5676,14 +5638,12 @@
       "sha256": "3d24a6349a65d60781468addcdb4ea9c0e286dc28a08f7fc5ea9c95d6a9ab398",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "document",
-      "component": "Document",
+      "name": "document-2",
+      "component": "Document2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3504",
@@ -5697,9 +5657,9 @@
       "sha256": "4ddafb7e646c37ef1c34cce0107021dc511556696bebd70fddbf60ed6699d168",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:document"
       ]
     },
     {
@@ -5950,14 +5910,12 @@
       "sha256": "81e9a6fcd7c1045a339b8633ca01a1f15453fcd4f829cf5e1dc7b04e32820b83",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "document-text",
-      "component": "DocumentText",
+      "name": "document-text-2",
+      "component": "DocumentText2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3953",
@@ -5971,9 +5929,9 @@
       "sha256": "ae8318a069d3216585bed844794c52cab615e61e13e39715078eea9c6d306c28",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:document-text"
       ]
     },
     {
@@ -6578,14 +6536,12 @@
       "sha256": "084d593368ca4561b49f65e9435a0398b9dc9afcaea9f579e83e461aaaacddf3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "eraser",
-      "component": "Eraser",
+      "name": "eraser-2",
+      "component": "Eraser2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4036",
@@ -6599,9 +6555,9 @@
       "sha256": "c3fdca8868ce7b0adf723d98763fe4517e6cc10fb2ba5f4214709dfce0bf1bb7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:eraser"
       ]
     },
     {
@@ -6664,14 +6620,12 @@
       "sha256": "aa472a53b2fa976ecf071595be4d2bdb155452ec649f476079a9edc54e2a7400",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "export",
-      "component": "Export",
+      "name": "export-2",
+      "component": "Export2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3322",
@@ -6685,14 +6639,14 @@
       "sha256": "6dadfd39931b005e3df6307cb765cf631cab41a12537da3bcaedf58d231731af",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:export"
       ]
     },
     {
-      "name": "export",
-      "component": "Export",
+      "name": "export-3",
+      "component": "Export3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3329",
@@ -6706,14 +6660,14 @@
       "sha256": "0d384a34fe156f5451a7b7bbdf3d82278ae62962b3057205cd7308778e824bcf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:export"
       ]
     },
     {
-      "name": "export",
-      "component": "Export",
+      "name": "export-4",
+      "component": "Export4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3336",
@@ -6727,9 +6681,9 @@
       "sha256": "19915f5d820d034300b809708e2f528c273f4a0d73bf6107b9c7799ebb66b0cd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:export"
       ]
     },
     {
@@ -7138,14 +7092,12 @@
       "sha256": "882df701da221fccbe4e446bac3f84c45a2e2e9b8ac6d100b669418fd39d26ff",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "flash",
-      "component": "Flash",
+      "name": "flash-2",
+      "component": "Flash2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4092",
@@ -7159,9 +7111,9 @@
       "sha256": "0bb9c79a7503715429bb8053d959f6af2e8c0f533c1ed7b5952256ae8dd3b676",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:flash"
       ]
     },
     {
@@ -7180,14 +7132,12 @@
       "sha256": "0d3ad20228cfbbb32b9ebbe3a074c6ea4c5f0341867227d29db0655605cb387e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "flash-circle",
-      "component": "FlashCircle",
+      "name": "flash-circle-2",
+      "component": "FlashCircle2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4044",
@@ -7201,9 +7151,9 @@
       "sha256": "13a225b325ae9362756f15d29064515488ee1297a8f43cb0bf17373a2e504c52",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:flash-circle"
       ]
     },
     {
@@ -8056,14 +8006,12 @@
       "sha256": "2337428d851dd8acd01c4698fee3ce3424154fc341197bc792cbd4f139665982",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "glass",
-      "component": "Glass",
+      "name": "glass-2",
+      "component": "Glass2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3675",
@@ -8077,9 +8025,9 @@
       "sha256": "15d016eb6510d3fc94ac2074072fe4085bc78fb4a859bd8bfb934fe9deb04dd7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:glass"
       ]
     },
     {
@@ -8582,14 +8530,12 @@
       "sha256": "ddcdd89bda8c3dcfe93c0456375993afa92dc48f6b456b2ac7b6c49c5f337bf3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "hashtag",
-      "component": "Hashtag",
+      "name": "hashtag-2",
+      "component": "Hashtag2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3612",
@@ -8603,9 +8549,9 @@
       "sha256": "451172aef6fa5a120884b3bd9761ea2f4d26a5ab4f3b8ee2d3897ae9507c6fec",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:hashtag"
       ]
     },
     {
@@ -9029,14 +8975,12 @@
       "sha256": "ba6ef8cae07e41be1da2e8d5b071e7dfe7aa41736c2b6950d577203582598254",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "home",
-      "component": "Home",
+      "name": "home-3",
+      "component": "Home3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4080",
@@ -9050,9 +8994,9 @@
       "sha256": "893302d5968b7b08277e941703a2120d8e17447640db725e570dacc075a83a01",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:home"
       ]
     },
     {
@@ -9287,14 +9231,12 @@
       "sha256": "506c0ab69efc54ddc93782988a5763d63a36017917edcffa5081c68abd8c34d6",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:4"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "icon",
-      "component": "Icon",
+      "name": "icon-2",
+      "component": "Icon2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3843",
@@ -9308,14 +9250,14 @@
       "sha256": "e0c2228d29bc1d30d0bd9f201ff25007afa24d9a95932920994b86dabcdc5eae",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:icon"
       ]
     },
     {
-      "name": "icon",
-      "component": "Icon",
+      "name": "icon-3",
+      "component": "Icon3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3926",
@@ -9329,14 +9271,14 @@
       "sha256": "c5d67c65c4897c4cdf113aae0c603c3eebf0fdea3faa11fd587e9902289fe688",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:icon"
       ]
     },
     {
-      "name": "icon",
-      "component": "Icon",
+      "name": "icon-4",
+      "component": "Icon4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3927",
@@ -9350,9 +9292,9 @@
       "sha256": "33e04c264a2b81a81a0e69931f10a98f9cd7313e158c48055239404532c014c4",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:4"
+        "name-suffixed:icon"
       ]
     },
     {
@@ -9475,14 +9417,12 @@
       "sha256": "cfbed3656b3008ae82cccc33b6961ce31429a37befe265364767115c9ca017a3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "import",
-      "component": "Import",
+      "name": "import-2",
+      "component": "Import2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3331",
@@ -9496,14 +9436,14 @@
       "sha256": "23ce79376c01f5f18d5e9d562752aee87752487069b89b3502112b9d141859d9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:import"
       ]
     },
     {
-      "name": "import",
-      "component": "Import",
+      "name": "import-3",
+      "component": "Import3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3333",
@@ -9517,9 +9457,9 @@
       "sha256": "9c6ea7b65f63d36f43f35a01c5f4185837733d59978132af3d4fb6a4397a5b1d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:import"
       ]
     },
     {
@@ -9797,14 +9737,12 @@
       "sha256": "7c11808e33d0735942297c0f1edf6b8cb54c27c8e38de029a4796a81d6bff6dd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "lamp",
-      "component": "Lamp",
+      "name": "lamp-2",
+      "component": "Lamp2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4069",
@@ -9818,9 +9756,9 @@
       "sha256": "4cdac4f68ce01de83834026e9b56f1bb5844b39f7c07ef7e9a3b820913148bf8",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:lamp"
       ]
     },
     {
@@ -9991,14 +9929,12 @@
       "sha256": "d892e9fb2bd3870544db79b0b74e57fc50a0f673c32007bf874fcbbca6d41242",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "like",
-      "component": "Like",
+      "name": "like-2",
+      "component": "Like2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3975",
@@ -10012,9 +9948,9 @@
       "sha256": "3f99a967fd5bb19821139c413dca860bdaf57ab346be071315824386623e54aa",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:like"
       ]
     },
     {
@@ -10090,14 +10026,12 @@
       "sha256": "cf79dd730c46c713b90bd78c3ca50d5b71bb1eb960ede6001ee6e7b880dfc449",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "link",
-      "component": "Link",
+      "name": "link-3",
+      "component": "Link3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3233",
@@ -10111,14 +10045,14 @@
       "sha256": "40f7309f4b6d7b2a20b4e4f278df8314c6554c57e2c30507aa7fd3c87ec9fcb3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:link"
       ]
     },
     {
-      "name": "link",
-      "component": "Link",
+      "name": "link-4",
+      "component": "Link4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3888",
@@ -10132,9 +10066,9 @@
       "sha256": "94cdc4ca7f8d74638a2cfd126e285e7ae88a462394b7e6a49f9746e8cb51a8a5",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:link"
       ]
     },
     {
@@ -10346,14 +10280,12 @@
       "sha256": "8b2d696388fb1a5988080e50c8170bcb812cfa602836eba628da56195ce868f9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "lock",
-      "component": "Lock",
+      "name": "lock-2",
+      "component": "Lock2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3755",
@@ -10367,9 +10299,9 @@
       "sha256": "d942d8336694f75cbcc2af7b270fad4c94202dfec29a313e13bdadfb96a71aa3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:lock"
       ]
     },
     {
@@ -10426,14 +10358,12 @@
       "sha256": "29115fdc0678a664648574781c2ff7133330636fb89e577660b48a05d1651a9b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "login",
-      "component": "Login",
+      "name": "login-2",
+      "component": "Login2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3327",
@@ -10447,9 +10377,9 @@
       "sha256": "993abff6d14fc99f8c154e257b3c1db52d8bfcd10b5a237f657e46dfbd9af421",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:login"
       ]
     },
     {
@@ -10468,14 +10398,12 @@
       "sha256": "c6d9c907cd8f052c1ae4b2177848cdd19865bf873f34186fae48dd7698b52e4c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "logout",
-      "component": "Logout",
+      "name": "logout-2",
+      "component": "Logout2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3330",
@@ -10489,9 +10417,9 @@
       "sha256": "4c584be7af8597f092165769026af584f5c9dd4ae5212f26daa5100cc451c1fd",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:logout"
       ]
     },
     {
@@ -10627,14 +10555,12 @@
       "sha256": "07bd28ddf4b3cea167f88122d8eface3bdf8367640cf32c850aff67d51c28543",
       "origin": "custom",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "map",
-      "component": "Map",
+      "name": "map-2",
+      "component": "Map2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4019",
@@ -10648,9 +10574,9 @@
       "sha256": "9d413bdd8ceb42a1b384f3e7e397eba1b012018d7ddff4e8a4a7ef36cb05fc69",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:map"
       ]
     },
     {
@@ -10669,14 +10595,12 @@
       "sha256": "c2e52c51d63e7d9ad697583e1fa2f553edaa04a2f6764eebb8e5b0bf36c7f43d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "mask",
-      "component": "Mask",
+      "name": "mask-2",
+      "component": "Mask2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4028",
@@ -10690,14 +10614,14 @@
       "sha256": "435ba2f0635d7ef48aaf01de010aa1cfc5bc7410ef1d71e047bd713b7226bb8d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:mask"
       ]
     },
     {
-      "name": "mask",
-      "component": "Mask",
+      "name": "mask-3",
+      "component": "Mask3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4041",
@@ -10711,9 +10635,9 @@
       "sha256": "baf54a94cb8a2d0bf9429a7df2a3428913b71316d45725649d2304eb47f998f3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:mask"
       ]
     },
     {
@@ -10751,14 +10675,12 @@
       "sha256": "0ab4d1ea42a04611c79ebf7113acc6eb61325b63526ce1672fb1849159e73ef9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "maximize",
-      "component": "Maximize",
+      "name": "maximize-5",
+      "component": "Maximize5",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3473",
@@ -10772,14 +10694,14 @@
       "sha256": "9780203495287bae4813b97ce9b944d98f713ac94b44bf094af46719cff9c875",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:maximize"
       ]
     },
     {
-      "name": "maximize",
-      "component": "Maximize",
+      "name": "maximize-6",
+      "component": "Maximize6",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3478",
@@ -10793,9 +10715,9 @@
       "sha256": "0a6781603a2ca561c7a5e143ab39e441e05d023c4e67e9432c9e428ca86ae820",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:maximize"
       ]
     },
     {
@@ -10930,14 +10852,12 @@
       "sha256": "0b37c07b046cebb0953e9bdbad0c8082f72d238afb8011a9db976d7cb6583d78",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "menu",
-      "component": "Menu",
+      "name": "menu-2",
+      "component": "Menu2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3813",
@@ -10951,9 +10871,9 @@
       "sha256": "d8c4721d78c34d764ca270e366ba94282d02d7f576f8379ac4e621f71f20fea9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:menu"
       ]
     },
     {
@@ -11029,14 +10949,12 @@
       "sha256": "4f3cd8c46e1c4503adf30207e381063ad5b6cdc7eb863a5567b6027741299c17",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "message-add",
-      "component": "MessageAdd",
+      "name": "message-add-2",
+      "component": "MessageAdd2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3797",
@@ -11050,9 +10968,9 @@
       "sha256": "7596160d15de609c8673c348285a5d6293fe80980c2c524cf51f392d5419210c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:message-add"
       ]
     },
     {
@@ -11261,14 +11179,12 @@
       "sha256": "818bd629392f730cfede8c57e8b9c8cab310e06b371714a04e0dc2ddd7f5c8bb",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "message-text",
-      "component": "MessageText",
+      "name": "message-text-2",
+      "component": "MessageText2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3802",
@@ -11282,9 +11198,9 @@
       "sha256": "511b2550f8c45dcaaff486937765d69fc238727686d346d5f1cdce382ad6ed4d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:message-text"
       ]
     },
     {
@@ -11341,14 +11257,12 @@
       "sha256": "1bd577b07c9fba9bf6e205bea943f6961c458fa9a5035723d10fba06d2cdea5e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "messages",
-      "component": "Messages",
+      "name": "messages-4",
+      "component": "Messages4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3801",
@@ -11362,9 +11276,9 @@
       "sha256": "fa3525d5d252c4dcc39dea9d0a7ff2455ce75c1c002eb9f29e2ce78e1333525e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:messages"
       ]
     },
     {
@@ -11480,14 +11394,12 @@
       "sha256": "c2aba338756e5add0344ea18df653dbb17579a56f20d8eb794dc3503f9e2ddcf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "microphone-slash",
-      "component": "MicrophoneSlash",
+      "name": "microphone-slash-2",
+      "component": "MicrophoneSlash2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3269",
@@ -11501,9 +11413,9 @@
       "sha256": "ed625d6a8546f608d129411fb0118545b85e6592118c26f6e4e5bc7599340a46",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:microphone-slash"
       ]
     },
     {
@@ -12139,14 +12051,12 @@
       "sha256": "de40ab45a69a3036c9e4e6c5c74e280befd5e135abc4b692ec43ca0c8bbecaf1",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "mouse",
-      "component": "Mouse",
+      "name": "mouse-2",
+      "component": "Mouse2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4084",
@@ -12160,9 +12070,9 @@
       "sha256": "6e6f20d141c02203be11cea2fca7175978295a500822ec0fd3ced3ac0d2c2326",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:mouse"
       ]
     },
     {
@@ -12532,14 +12442,12 @@
       "sha256": "e7d216228cf0c57caa487f7481140df74146090df2cefa1f0afdf336a4353f3e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:3"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "note",
-      "component": "Note",
+      "name": "note-3",
+      "component": "Note3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3520",
@@ -12553,14 +12461,14 @@
       "sha256": "3ce2832078a42ce181725c45dc265085ae069ed678683a147e48093f650b0b88",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:note"
       ]
     },
     {
-      "name": "note",
-      "component": "Note",
+      "name": "note-4",
+      "component": "Note4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3949",
@@ -12574,9 +12482,9 @@
       "sha256": "eb8201d5a0f1d98bb7610f304a100356699c7f76bccb9d04f51739e4d3204d45",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:3"
+        "name-suffixed:note"
       ]
     },
     {
@@ -12709,14 +12617,12 @@
       "sha256": "6804f3572b093065d9cd770c69a4432d5b6c828a9232bafc047d12e3a4e2fc15",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "notification",
-      "component": "Notification",
+      "name": "notification-2",
+      "component": "Notification2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3525",
@@ -12730,9 +12636,9 @@
       "sha256": "ea99e2c07236eeed3599b29079d7b511a566555396082a57060ae4694cc690f3",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:notification"
       ]
     },
     {
@@ -13410,14 +13316,12 @@
       "sha256": "fe049cb3a1f7cd1640c40e6d584cc09df336e2c2dbbd3b33d57473abd1c9c9be",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "play-circle",
-      "component": "PlayCircle",
+      "name": "play-circle-2",
+      "component": "PlayCircle2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3739",
@@ -13431,12 +13335,12 @@
       "sha256": "2062ced8cd7dc8e63b222641c7a2ee58089d6c6c61d485b0d67f7a22add29d85",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "renamedFrom": "play-cricle",
       "issues": [
         "renamed:play-cricle",
         "normalized-name:play-cricle",
-        "name-conflict:2"
+        "name-suffixed:play-circle"
       ]
     },
     {
@@ -13948,14 +13852,12 @@
       "sha256": "050e7fe5dfe5731a8c9fc1b3afeec55e29797e7e439be1da86e96bc9357ff472",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "radar",
-      "component": "Radar",
+      "name": "radar-3",
+      "component": "Radar3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4021",
@@ -13969,9 +13871,9 @@
       "sha256": "cf2ba6b6e11aac39a80bb6e508b65cb915c3cd8dbdbac1b6ebe732b490938d10",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:radar"
       ]
     },
     {
@@ -14066,14 +13968,12 @@
       "sha256": "a45bd6bdfca3072f91c13b78f4433bf518adb566117d21e1b0369d06d0f59f7e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "ranking",
-      "component": "Ranking",
+      "name": "ranking-2",
+      "component": "Ranking2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4053",
@@ -14087,9 +13987,9 @@
       "sha256": "47a0e427c4ed599a23fef3af50af9be43cfee6fb5c470dd429b22004303bca7c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:ranking"
       ]
     },
     {
@@ -14108,14 +14008,12 @@
       "sha256": "4b55c51555b95f8b2ae975159cd0bf8eabe31203afd46c630272a7fd22b24278",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "receipt",
-      "component": "Receipt",
+      "name": "receipt-3",
+      "component": "Receipt3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3937",
@@ -14129,9 +14027,9 @@
       "sha256": "12da356cf90294cc4411311e69d4a86ccf019d5c5ffcf00fb3a99bdac87f2aef",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:receipt"
       ]
     },
     {
@@ -14150,14 +14048,12 @@
       "sha256": "a5e20d41a90b3a4a1c7c0eb465ae49beedd0e8d0b9e65fefbca97c1ef32ea824",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "receipt-2",
-      "component": "Receipt2",
+      "name": "receipt-2-2",
+      "component": "Receipt22",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3916",
@@ -14171,9 +14067,9 @@
       "sha256": "ef5ff8226ccceabed4cef696a39e459a142a864e9405aa7cdcb7e39434a2c5af",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:receipt-2"
       ]
     },
     {
@@ -14707,14 +14603,12 @@
       "sha256": "879d8a8c8bb70923104efe6e17e8009ae6adf1f15a2b7965309bbadb1dc369f1",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "rotate-left",
-      "component": "RotateLeft",
+      "name": "rotate-left-2",
+      "component": "RotateLeft2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3447",
@@ -14728,9 +14622,9 @@
       "sha256": "5291c88458636d967b1cd5767071e58b02ae854e2a943681cc31899a49cc1d51",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:rotate-left"
       ]
     },
     {
@@ -14749,14 +14643,12 @@
       "sha256": "5e2b06b0039557f79f4dc5b61afd63c155af4cee6969fa2e4ad47ab3714f4d12",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "rotate-right",
-      "component": "RotateRight",
+      "name": "rotate-right-2",
+      "component": "RotateRight2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3441",
@@ -14770,9 +14662,9 @@
       "sha256": "ce26a4681cb70ef932f9034a3f6abf33808a19b64d6e917a0e2d01ccb92fc3aa",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:rotate-right"
       ]
     },
     {
@@ -15116,14 +15008,12 @@
       "sha256": "f7b91316375b8e3d5aeb76aca24c27723d746b3833a812e0dec881ee4298e9a5",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "scissor",
-      "component": "Scissor",
+      "name": "scissor-2",
+      "component": "Scissor2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4032",
@@ -15137,9 +15027,9 @@
       "sha256": "ac1a0ce73a05f54eefe3f04e93ded273e91099b46694df5c572f518d269beaba",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:scissor"
       ]
     },
     {
@@ -15196,14 +15086,12 @@
       "sha256": "f42ced936203290eac57ce711e5a13dbe10d9ac3c9f818964399342f378dfadb",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "search-favorite",
-      "component": "SearchFavorite",
+      "name": "search-favorite-2",
+      "component": "SearchFavorite2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3691",
@@ -15217,9 +15105,9 @@
       "sha256": "6bd4d442dbde74c8aadd8de9f079f6b96ea54ebe49b2915176f56c6c0b40707a",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:search-favorite"
       ]
     },
     {
@@ -15238,14 +15126,12 @@
       "sha256": "f7d64fa76e5d80e35f08df74ad256d4d959a1d3662b7bb750181d1e2ae7d8cbf",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "search-normal",
-      "component": "SearchNormal",
+      "name": "search-normal-2",
+      "component": "SearchNormal2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3693",
@@ -15259,9 +15145,9 @@
       "sha256": "683791f6a79d99e6046c57ddebf7ff10b3848c40ff4d45de479e47cd67447ce9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:search-normal"
       ]
     },
     {
@@ -15280,14 +15166,12 @@
       "sha256": "ca1781b42286b04aa6e953d50b9d2bef570a4542343fd5afca2f649e364736a6",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "search-status",
-      "component": "SearchStatus",
+      "name": "search-status-2",
+      "component": "SearchStatus2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3692",
@@ -15301,9 +15185,9 @@
       "sha256": "a47a71faea6e91ed30a3a10691781d6adf55e94217eb0c551efc136629ab98a6",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:search-status"
       ]
     },
     {
@@ -15322,14 +15206,12 @@
       "sha256": "cad3c30e53c649bcd5c02aef21e913b04a73d70ef0177074cce709bc3caf63d5",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "search-zoom-in",
-      "component": "SearchZoomIn",
+      "name": "search-zoom-in-2",
+      "component": "SearchZoomIn2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3688",
@@ -15343,9 +15225,9 @@
       "sha256": "eec559e702f882ac523f2e3a2b4101c4c970d62c23e59b7f7e664a3a6f2d8775",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:search-zoom-in"
       ]
     },
     {
@@ -15364,14 +15246,12 @@
       "sha256": "9810a8bbf2badb4e9fd900ffdff63f49a53b819a42b93936f425eac04520c5e5",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "search-zoom-out",
-      "component": "SearchZoomOut",
+      "name": "search-zoom-out-2",
+      "component": "SearchZoomOut2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3690",
@@ -15385,9 +15265,9 @@
       "sha256": "caa28dce4da64279d29107046e8913d253f6c9231720f354d149124efb4857a6",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:search-zoom-out"
       ]
     },
     {
@@ -15501,14 +15381,12 @@
       "sha256": "2ab2fe0669856af347e250dc554007fe26c54e7f76d7808ca03923fd7a0e6584",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "send",
-      "component": "Send",
+      "name": "send-3",
+      "component": "Send3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3780",
@@ -15522,9 +15400,9 @@
       "sha256": "8e0721a907576143a313bcce875e4ef5f6433b53635b42ff2ef41bc55c575bbc",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:send"
       ]
     },
     {
@@ -15714,14 +15592,12 @@
       "sha256": "b7e8d6cbf99dcbc168f98bead1afc27917666e169848bd473549ebffaeb8b854",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "shapes",
-      "component": "Shapes",
+      "name": "shapes-2",
+      "component": "Shapes2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4050",
@@ -15735,9 +15611,9 @@
       "sha256": "8d33f8e843249c452d3628d7e001ec2f11cee7f8ab541d62aaa91722f9f8ce2c",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:shapes"
       ]
     },
     {
@@ -16139,14 +16015,12 @@
       "sha256": "2c3476be224c7a009fc03dc9011171f4df277b1fb901533fb6125c4288319c70",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "simcard",
-      "component": "Simcard",
+      "name": "simcard-3",
+      "component": "Simcard3",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4008",
@@ -16160,9 +16034,9 @@
       "sha256": "eaefda67427221a0f53173e1a1a309368511c96f11762a1b291c127b4ba14742",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:simcard"
       ]
     },
     {
@@ -16278,14 +16152,12 @@
       "sha256": "11fcbeb3b36ed5db6872d3063451b9228bd4c1911af62984ec0c3fd8940408a1",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "slider-horizontal",
-      "component": "SliderHorizontal",
+      "name": "slider-horizontal-2",
+      "component": "SliderHorizontal2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3458",
@@ -16299,9 +16171,9 @@
       "sha256": "4265f78bafc0c22415a173925800ad0e47290ca24c5a54f1181e3d41513acc5d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:slider-horizontal"
       ]
     },
     {
@@ -16320,14 +16192,12 @@
       "sha256": "c0ea074ba97162cd85a5a4bb289b7abf2271de4607d465667d0f4f5128c119f9",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "slider-vertical",
-      "component": "SliderVertical",
+      "name": "slider-vertical-2",
+      "component": "SliderVertical2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3456",
@@ -16341,9 +16211,9 @@
       "sha256": "860054672acfde61da660f05272879e8f8d494159703cc9d4faecb7766e327ae",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:slider-vertical"
       ]
     },
     {
@@ -16714,14 +16584,12 @@
       "sha256": "d4cc626afb13483affc6e270ad481d90231244285920c88369f44217e04df3eb",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "star",
-      "component": "Star",
+      "name": "star-2",
+      "component": "Star2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3961",
@@ -16735,9 +16603,9 @@
       "sha256": "8d57a2ba3181d07db7fb201b7dcfa59f404989956f3fbde6edac0771f2ac5a31",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:star"
       ]
     },
     {
@@ -16987,14 +16855,12 @@
       "sha256": "c1303acff2478405561ddb3efd7e7d265fafe9e19fbfc22551b95f211e466647",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "sun",
-      "component": "Sun",
+      "name": "sun-2",
+      "component": "Sun2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:4097",
@@ -17008,9 +16874,9 @@
       "sha256": "74ca59d07244efb40111cc55f660c6391c8f9cf548b24d66ddd6284de976ec7b",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:sun"
       ]
     },
     {
@@ -17652,14 +17518,12 @@
       "sha256": "77b7958b81123b01b3263f4d163a20b07db78de7b2898a7f38789ad7f4172289",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "timer",
-      "component": "Timer",
+      "name": "timer-2",
+      "component": "Timer2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3561",
@@ -17673,9 +17537,9 @@
       "sha256": "c6a3c5d60402ea4e109f5d52b6732ff433c206e86b8a579843a5381e96dbd33d",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:timer"
       ]
     },
     {
@@ -18826,14 +18690,12 @@
       "sha256": "c528981cc16a8d89062b5f30dc0fd29d9883c99fd5e0468132da16bd90e543d1",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "volume-low",
-      "component": "VolumeLow",
+      "name": "volume-low-2",
+      "component": "VolumeLow2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3281",
@@ -18847,9 +18709,9 @@
       "sha256": "ec50360c5d578faf23916210066fe6bd781e2745a0be3deb6b0ef85c9f89db2e",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:volume-low"
       ]
     },
     {
@@ -18948,14 +18810,12 @@
       "sha256": "22b2edc473f91aed79b621f56b6c2138f0874d7b157813cea4ad78ac374da118",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "wallet",
-      "component": "Wallet",
+      "name": "wallet-4",
+      "component": "Wallet4",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3920",
@@ -18969,9 +18829,9 @@
       "sha256": "b73f79e8cefee275c176e74597030c6b1186242f74f5e2b94e269c422000b36a",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:wallet"
       ]
     },
     {
@@ -19028,14 +18888,12 @@
       "sha256": "a8690888f6d4625750e65d1f753c1f81062179dd8568368cacf93d59bc82f2fb",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "wallet-add",
-      "component": "WalletAdd",
+      "name": "wallet-add-2",
+      "component": "WalletAdd2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3941",
@@ -19049,9 +18907,9 @@
       "sha256": "a8e6e1be595fda924193613dfb7095cba033cdbca89163782ff3590f41771ea7",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:wallet-add"
       ]
     },
     {
@@ -19266,14 +19124,12 @@
       "sha256": "9de5082c751019f695542ad84352de21309a076e3d69fd62d0d82fae81074545",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
-      "issues": [
-        "name-conflict:2"
-      ]
+      "status": "candidate",
+      "issues": []
     },
     {
-      "name": "weight",
-      "component": "Weight",
+      "name": "weight-2",
+      "component": "Weight2",
       "style": "twotone",
       "figma": {
         "nodeId": "3195:3678",
@@ -19287,9 +19143,9 @@
       "sha256": "08e14d5d06399f1f4b9e6dbd5464e2d19047dbdd2cb45f810c5249b2ead5e846",
       "origin": "iconsax",
       "provenance": "unconfirmed",
-      "status": "blocked",
+      "status": "candidate",
       "issues": [
-        "name-conflict:2"
+        "name-suffixed:weight"
       ]
     },
     {

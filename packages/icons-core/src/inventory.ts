@@ -131,19 +131,30 @@ export function buildInventory(
   for (const entry of entries)
     if (entry.status === "candidate")
       byName.set(entry.name, [...(byName.get(entry.name) ?? []), entry]);
-  for (const group of byName.values()) {
+  // Same name, same SVG: publish once. Same name, different SVG: the first variant (by node id)
+  // keeps the name and the others get the next free numeric suffix (`brush-2`, `brush-3`...).
+  const taken = new Set(entries.map((entry) => entry.name));
+  for (const [base, group] of byName) {
     if (group.length < 2) continue;
-    const [first, ...rest] = group as [InventoryEntry, ...InventoryEntry[]];
-    if (rest.every((entry) => entry.sha256 === first.sha256))
-      for (const entry of rest) {
+    const firstBySvg = new Map<string, InventoryEntry>();
+    let suffix = 1;
+    for (const entry of group) {
+      const original = firstBySvg.get(entry.sha256);
+      if (original) {
         entry.status = "duplicate";
-        entry.duplicateOf = first.figma.nodeId;
+        entry.duplicateOf = original.figma.nodeId;
+        continue;
       }
-    else
-      for (const entry of group) {
-        entry.status = "blocked";
-        entry.issues.push(`name-conflict:${group.length}`);
+      if (firstBySvg.size > 0) {
+        do suffix += 1;
+        while (taken.has(`${base}-${suffix}`));
+        entry.name = `${base}-${suffix}`;
+        entry.component = componentName(entry.name);
+        entry.issues.push(`name-suffixed:${base}`);
+        taken.add(entry.name);
       }
+      firstBySvg.set(entry.sha256, entry);
+    }
   }
 
   const byComponent = new Map<string, string>();
