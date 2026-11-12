@@ -70,4 +70,5 @@ Motivos:
 ### Bloqueo de publicación
 
 - Todos los iconos tienen procedencia `unconfirmed`.
-- `@klima-ds/icons-react` ejecuta `scripts/check-publishable.mjs` en `prepublishOnly` y rechaza publicar mientras haya iconos sin procedencia confirmada o la build sea sintética.
+- Todos los paquetes de iconos ejecutan `scripts/check-publishable.mjs` en `prepublishOnly` y rechazan publicar una build sintética.
+- Por decisión del propietario (2026-11-12), la procedencia sin confirmar ya no bloquea la publicación; `build-info.json` sigue informando `unconfirmedProvenance` por estilo.

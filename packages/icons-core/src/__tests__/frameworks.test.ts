@@ -87,17 +87,17 @@ describe("renderAstro", () => {
 });
 
 describe("publishProblems", () => {
-  it("blocks synthetic builds and unconfirmed provenance", () => {
+  it("blocks synthetic builds but not unconfirmed provenance", () => {
     expect(
       publishProblems({
         source: "synthetic",
         styles: { linear: { count: 4, unconfirmedProvenance: 2, multicolor: [] } },
       }),
-    ).toEqual(['build source is "synthetic"', "linear: 2 icons without confirmed provenance"]);
+    ).toEqual(['build source is "synthetic"']);
     expect(
       publishProblems({
         source: "figma",
-        styles: { linear: { count: 4, unconfirmedProvenance: 0, multicolor: [] } },
+        styles: { linear: { count: 4, unconfirmedProvenance: 4, multicolor: [] } },
       }),
     ).toEqual([]);
   });

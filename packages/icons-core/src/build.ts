@@ -137,13 +137,13 @@ export async function writeBuild(
   );
 }
 
-/** Reasons a build must not be published (TASK-013). Empty when publishable. */
+/**
+ * Reasons a build must not be published. Empty when publishable. Unconfirmed provenance is
+ * reported in build-info.json but no longer blocks publishing (owner decision, 2026-11-12).
+ */
 export function publishProblems(buildInfo: BuildInfo): string[] {
   const problems: string[] = [];
   if (buildInfo.source !== "figma") problems.push(`build source is "${buildInfo.source}"`);
-  for (const [style, info] of Object.entries(buildInfo.styles))
-    if (info.unconfirmedProvenance > 0)
-      problems.push(`${style}: ${info.unconfirmedProvenance} icons without confirmed provenance`);
   return problems;
 }
 
