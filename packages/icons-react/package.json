@@ -1,6 +1,6 @@
 {
   "name": "@klima-ds/icons-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tree-shakeable React icon components for Klima Design System",
   "type": "module",
   "sideEffects": false,
